@@ -1,0 +1,5 @@
+dolar = float(input("Digite seu valor em dólares:"))
+taxa_de_cambio = ("R$4.94 para cada 1.0US$")
+print(taxa_de_cambio)
+converter = (dolar * 4.94)
+print(f"Dolar: {dolar}, Reias: {converter}")
